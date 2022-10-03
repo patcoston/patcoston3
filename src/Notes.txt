@@ -1,0 +1,34 @@
+Notes on creating patcoston.com with React and TypeScript
+
+f:\web\patcoston3
+create-react-app . --typescript
+
+Install React Router for TypeScript
+https://www.pluralsight.com/guides/react-router-typescript
+npm install --save-dev typescript @types/node @types/react @types/react-dom @types/jest @types/react-router-dom
+npm audit fix
+
+
+ npm install
+ Adding the Typescript compiler,
+ instal @types packages.
+ Each @types package contains inside it several .d.ts files which provide the actual type information for libraries installed from NPM.
+
+npm install --save-dev @types/blah-blah
+
+Add to GitHub
+https://github.com/patcoston/patcoston3
+
+echo "# patcoston3" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/patcoston/patcoston3.git
+git push -u origin main
+
+npm start
+Changed port to 3001
+http://localhost:3001/
+
+
