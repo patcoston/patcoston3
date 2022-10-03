@@ -8,6 +8,18 @@ https://www.pluralsight.com/guides/react-router-typescript
 npm install --save-dev typescript @types/node @types/react @types/react-dom @types/jest @types/react-router-dom
 npm audit fix
 
+Some React Router DOM things were not installed for example
+Module '"react-router-dom"' has no exported member 'Switch'.ts(2305)
+npm install react-router-dom @types/react-router-dom
+
+npm install react-router-dom
+v6.4.1
+https://medium.com/@manishsundriyal/whats-new-in-react-router-v6-20eefe665be9
+
+
+npm uninstall react-router-dom
+npm uninstall -D react-router-dom
+npm uninstall -save-dev react-router-dom
 
  npm install
  Adding the Typescript compiler,
